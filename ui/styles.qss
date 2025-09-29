@@ -1,0 +1,131 @@
+/* Global Styles */
+* {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+/* Light Theme Defaults */
+QWidget {
+    background-color: #f5f7fa;
+    color: #2c3e50;
+}
+
+QLineEdit {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+QLineEdit:focus {
+    border: 1px solid #3498db;
+    background-color: #f0f8ff;
+}
+
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 30px;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #206694;
+}
+
+QTableWidget {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    gridline-color: #ececec;
+}
+
+QHeaderView::section {
+    background-color: #ecf0f1;
+    padding: 6px;
+    border: 1px solid #dcdcdc;
+    font-weight: bold;
+}
+
+QTabWidget::pane {
+    border: 1px solid #dcdcdc;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+QTabBar::tab {
+    background: #ecf0f1;
+    border: 1px solid #dcdcdc;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 2px;
+}
+
+QTabBar::tab:selected {
+    background: #3498db;
+    color: white;
+}
+
+/* Dark Theme Overrides */
+QMainWindow[theme="dark"] {
+    background: #2c3e50;
+    color: #ecf0f1;
+}
+
+QLineEdit[theme="dark"] {
+    background-color: #34495e;
+    border: 1px solid #7f8c8d;
+    color: #ecf0f1;
+}
+
+QLineEdit:focus[theme="dark"] {
+    border: 1px solid #3498db;
+    background-color: #3e5c76;
+}
+
+QPushButton[theme="dark"] {
+    background-color: #3498db;
+    color: white;
+}
+
+QPushButton:hover[theme="dark"] {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed[theme="dark"] {
+    background-color: #206694;
+}
+
+QTableWidget[theme="dark"] {
+    background-color: #34495e;
+    border: 1px solid #7f8c8d;
+    gridline-color: #7f8c8d;
+}
+
+QHeaderView::section[theme="dark"] {
+    background-color: #3e5c76;
+    border: 1px solid #7f8c8d;
+    color: #ecf0f1;
+}
+
+QTabWidget::pane[theme="dark"] {
+    background: #34495e;
+    border: 1px solid #7f8c8d;
+}
+
+QTabBar::tab[theme="dark"] {
+    background: #3e5c76;
+    border: 1px solid #7f8c8d;
+    color: #ecf0f1;
+}
+
+QTabBar::tab:selected[theme="dark"] {
+    background: #3498db;
+    color: white;
+}
