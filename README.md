@@ -1,1 +1,2 @@
-# Password-Manager
+About the Tool
+The Password Manager is a secure and user-friendly desktop application designed to simplify password management. It allows users to register with a master password, log in to access a password vault, and perform actions such as adding, editing, deleting, and copying passwords. The tool features a sleek GUI with light and dark theme options, a search bar for filtering entries, and encrypted storage to ensure data security. The "Copied!" notification appears as a dismissible message box when passwords are copied to the clipboard, enhancing usability.
