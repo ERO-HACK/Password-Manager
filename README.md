@@ -24,6 +24,11 @@ The Password Manager is a secure and user-friendly desktop application designed 
 - Search bar to filter passwords by site or username
 - Compiled into a standalone `.exe` file for Windows using cx_Freeze
 
+<p align="center">
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/72475141/495204145-d23d13ba-efae-4373-916d-5bb1766e490d.JPG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250929%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250929T134327Z&X-Amz-Expires=300&X-Amz-Signature=a951f7064ba7f6ee1d9dfa810f7b84496fc898b55fd47d7f142c357039eef4a6&X-Amz-SignedHeaders=host" alt="My Image" width="300"/>
+</p>
+
+
 **Purpose:**  
 The tool is designed to provide a secure and convenient solution for managing passwords, protecting user data with encryption, and offering an easy-to-use interface to enhance productivity and security in personal password management.
 
